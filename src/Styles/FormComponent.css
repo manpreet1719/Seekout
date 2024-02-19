@@ -1,0 +1,118 @@
+.card {
+    width: 300px;
+    padding: 20px;
+    margin-top: 44px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] , input[type="tel"], button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit_btn {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: none;
+  }
+  
+  .submit_btn:hover {
+    background-color: #0056b3;
+  }
+
+  .delete_btn {
+    background-color: #d9534f;
+    color: white;
+    cursor: pointer;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: none;
+  }
+  
+  .delete_btn:hover {
+    background-color: #d9534f;
+  }
+
+  input[type="radio"] {
+    width: 18px;
+    height: 18px;
+   }
+  .radio_btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items vertically */
+  }
+  .radio_btn_regular{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px; 
+  }
+  .radio_btn_admin{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px; 
+  }
+  .title_name{
+    margin-bottom: 18px;
+  }
+  .title_heading{
+    margin-bottom: 18px;
+  }
+
+  .grey-line {
+    border-top: 1px solid #ccc; 
+    margin: 20px 0; 
+  }
+  .Info_title{
+    margin-bottom: 15px;
+  }
+  .editBtns{
+    display: 'flex';
+    justify-content: 'space-between';
+     width: '100%'
+  }
+  .addbtns{
+    display: 'flex';
+    flex-direction: row-reverse;
+    width: '100%'
+  }
+
+  .close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .close-button:hover {
+    color: #000;
+  }

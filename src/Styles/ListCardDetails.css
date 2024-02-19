@@ -1,0 +1,19 @@
+.member {
+    border-top: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.admin-text{
+    background-color: rgb(8, 127, 206);
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: white;
+    border-radius: 1px;
+    font-size: 12px;
+}
+.info {
+    margin-left: 10px;
+}

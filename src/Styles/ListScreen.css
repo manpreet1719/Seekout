@@ -1,0 +1,33 @@
+.card_listscreen {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+  }
+  .plus-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #151515;
+    text-decoration: none;
+  }
+  
+  .plus-button:hover {
+    color: #000;
+  }
+ 
+  .subtext{
+    margin-bottom: 18px;
+  }
+  .heading_listscreen{
+    margin-bottom: 5px;
+  }
